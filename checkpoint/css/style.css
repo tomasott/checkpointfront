@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'IBM Plex Sans Arabic', sans-serif;
+}
+
+body {    
+    background: #16151d;
+    background-image: url(https://storage.googleapis.com/subtlepatterns-production/designers/subtlepatterns/uploads/carbon_fibre.png);
+    font-size: 18px;
+    line-height: 1.2;
+    color: #b8b8b8;
+  }
+
+header {
+    float: inline;
+    padding: 10px, 0px;
+    margin: 0px 40px 5px 0;
+    background: #9b51e0;
+    width: 100%;
+}
+
+header h1{
+    margin-left: 10px;
+}
+
+header div {
+    background-color: black;
+}
+
+.menu  ul {
+    color: #b8b8b8;
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #9b51e0;
+}
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+    min-width: 300px;
+    height: 640px;
+    background-color: black;
+    border-radius: 10px;   
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 20px ;
+}
+
+.card .imagem img {
+    border-radius: 10px;
+    width: 100%;
+    max-height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card .resumo {
+    width: fit-content;
+    height: fit-content;
+    padding: 3px 5px 2px 5px;
+}
+
+footer{
+    padding: 0;
+    margin: 0;
+    background: #9b51e0;
+}
+
+.banner{
+    background-image: url(https://luminousscans.com/wp-content/uploads/2022/02/lnbb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+p{
+    width: 95%;
+}
+
+.video-container{
+width: 100%;
+display: flex;
+justify-content: center;
+margin: 20px;
+}
+.video-container iframe{
+max-width: 100%;
+
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-around;
+}
+#linkedin{
+    background-image: url(https://imagens-revista-pro.vivadecora.com.br/uploads/2017/10/como-usar-o-linkedin-para-empresas.png);
+    background-size: contain;
+    height: 40px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+
+
+#github{
+    background-image: url(https://rockcontent.com/br/wp-content/uploads/sites/2/2020/03/github.jpg);
+    background-size: contain;
+    height: 40px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+
